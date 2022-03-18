@@ -9,7 +9,7 @@ namespace API.Data
         public static void Initialize(StoreContext context)
         {
             if (context.Products.Any()) return;
-
+            //creating seed products for the database
             var products = new List<Product>
             {
                 new Product

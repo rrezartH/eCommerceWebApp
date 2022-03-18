@@ -34,6 +34,8 @@ namespace API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
             });
+            //here we accept a StoreContext and tell the options parameter to use Sqlite and connect to the Default Connection
+            //which we set on the appsettings
             services.AddDbContext<StoreContext>(opt =>
             {
                 opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));

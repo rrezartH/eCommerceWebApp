@@ -8,7 +8,7 @@ namespace API.Data
         public StoreContext(DbContextOptions options) : base(options)
         {
         }
-
+        //created a dbset that accepts products
         public DbSet<Product> Products { get; set; }
     }
 }
