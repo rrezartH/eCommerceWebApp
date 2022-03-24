@@ -3,8 +3,10 @@
     "",
     "\\client",
     "\\client\\public",
-    "\\client\\src"
+    "\\client\\src",
+    "\\client\\src\\app",
+    "\\client\\src\\app\\layout"
   ],
-  "SelectedNode": "\\client\\src\\index.tsx",
+  "SelectedNode": "\\client\\src\\app\\layout\\App.tsx",
   "PreviewInSolutionExplorer": false
 }
